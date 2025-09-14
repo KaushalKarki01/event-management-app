@@ -1,5 +1,12 @@
-#env variables
-.env
+# Ignore environment files
+Backend/.env
 
-#node modules
-node_modules/
+# Ignore node modules inside Backend
+Backend/node_modules/
+
+# Logs
+*.log
+
+# Optional: OS-specific files
+.DS_Store
+Thumbs.db
